@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import App from './app.vue'
-var vm = new Vue({
+new Vue({
   components: { App },
   el: '#app',
   data: {
     message: 'Hello Vue!'
   },
-  render (h) {
-    return h(App)
-  }
+  // render (h) {
+  //   return h(App)
+  // }
+  template: '<div>123</div>'
 })
-console.log(vm)
+// console.log(vm)
